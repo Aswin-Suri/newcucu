@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="4" time="31.517">
+<testcase classname="Test the skillrary app" name="_2" time="9.834">
+<system-out><![CDATA[Given open browser navigate to the login page...............................passed
+When Enter username "user"..................................................passed
+And Enter password "user"...................................................passed
+And click on login button...................................................passed
+Then I should see username as "Harry Den"...................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test the skillrary app" name="_3" time="8.838">
+<system-out><![CDATA[Given open browser navigate to the login page...............................passed
+When Enter username "user"..................................................passed
+And Enter password "user"...................................................passed
+And click on login button...................................................passed
+Then I should see username as "Harry Den"...................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test the skillrary app" name="_4" time="6.593">
+<system-out><![CDATA[Given open browser navigate to the login page...............................passed
+When Enter username "admin".................................................passed
+And Enter password "admin"..................................................passed
+And click on login button...................................................passed
+Then I should see username as "SkillRary Admin".............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test the skillrary app" name="To test login with invalid Admin credentials" time="5.969">
+<system-out><![CDATA[Given open browser navigate to the login page...............................passed
+When Enter username "aswin".................................................passed
+And Enter password "aswin"..................................................passed
+And click on login button...................................................passed
+Then I should navigate to the page "SkillRary Courses"......................passed
+]]></system-out>
+</testcase>
+</testsuite>
